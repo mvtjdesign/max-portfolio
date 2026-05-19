@@ -3,7 +3,7 @@ import { projects } from "@/lib/projects";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#f7f7f5] text-zinc-950">
+    <div className="min-h-screen bg-background text-foreground">
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-20 px-6 py-16 sm:px-10 sm:py-20">
         <section className="space-y-8 border-b border-zinc-200 pb-14">
           <p className="text-xs font-medium uppercase tracking-[0.16em] text-zinc-500">Max Tijerino</p>
